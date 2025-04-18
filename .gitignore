@@ -1,0 +1,68 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio Code settings
+.vscode/
+
+# Mac files
+.DS_Store
+
+# Logs
+*.log
+
+# Rider IDE
+.idea/
+
+# dotCover
+*.dotCover
+
+# Build directories
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.symbols.nupkg
+
+# Microsoft Azure Web App publish settings
+PublishProfiles/
+
+# dotenv environment variable files
+.env
+
+# Application secrets
+secrets.json
+
+# Don't push appsettings files
+appsettings.json
+appsettings.*.json
+
+# Optional: if you use certificate files for development
+*.pfx
+*.cert
+*.key
+
+# Optional: global.json if you're managing SDK versions per machine
+global.json
+
+# Optional: skip TestResults folder
+TestResults/
+
+# Optional: skip coverage results
+coverage/
+*.lcov
+coverage*.json
