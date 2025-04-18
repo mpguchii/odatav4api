@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Sap.Data.Hana.Net.v8.0">
+            <HintPath>C:\Program Files\SAP\hdbclient\dotnetcore\v8.0\Sap.Data.Hana.Net.v8.0.dll</HintPath>
+        </Reference>
+        <Reference Include="Sap.EntityFrameworkCore.Hana.NetTopologySuite.v8.0">
+            <HintPath>C:\Program Files\SAP\hdbclient\dotnetcore\v8.0\Sap.EntityFrameworkCore.Hana.NetTopologySuite.v8.0.dll</HintPath>
+        </Reference>
+        <Reference Include="Sap.EntityFrameworkCore.Hana.NetTopologySuite.v9.0">
+            <HintPath>C:\Program Files\SAP\hdbclient\dotnetcore\v8.0\Sap.EntityFrameworkCore.Hana.NetTopologySuite.v9.0.dll</HintPath>
+        </Reference>
+        <Reference Include="Sap.EntityFrameworkCore.Hana.v8.0">
+            <HintPath>C:\Program Files\SAP\hdbclient\dotnetcore\v8.0\Sap.EntityFrameworkCore.Hana.v8.0.dll</HintPath>
+        </Reference>
+        <Reference Include="Sap.EntityFrameworkCore.Hana.v9.0">
+            <HintPath>C:\Program Files\SAP\hdbclient\dotnetcore\v8.0\Sap.EntityFrameworkCore.Hana.v9.0.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.OData" Version="9.3.0" />
+      <PackageReference Include="Microsoft.OData.Core" Version="8.2.3" />
+      <PackageReference Include="Microsoft.OData.Edm" Version="8.2.3" />
+      <PackageReference Include="Microsoft.Spatial" Version="8.2.3" />
+    </ItemGroup>
+</Project>
